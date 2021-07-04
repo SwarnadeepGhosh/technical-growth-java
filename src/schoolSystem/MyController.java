@@ -1,9 +1,9 @@
-package coreJava;
+package schoolSystem;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class School1 {
+public class MyController {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -132,27 +132,4 @@ public class School1 {
 		return null;
 	}
 
-}
-
-class Teacher {
-	int tId;
-	String tName;
-	int tAge;
-	String tSubject;
-
-	public Teacher(int tId, String tName, int tAge, String tSubject) {
-		super();
-		this.tId = tId;
-		this.tName = tName;
-		this.tAge = tAge;
-		this.tSubject = tSubject;
-	}
-
-	public int gettId() {
-		return tId;
-	}
-
-	public void settId(int tId) {
-		this.tId = tId;
-	}
 }
